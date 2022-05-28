@@ -75,15 +75,11 @@ if (specialPrompt)  {
 var endPassword = [];  
 for(var i = 0; i < passwordLength; i++)  {
 
-  endPassword.push(renderedPassword[Math.floor(Math.random() * renderedPassword.length)]);
-
-  return endPassword.join("");
+  endPassword.push(renderedPassword[Math.floor(Math.random() * renderedPassword.length)]); 
 }
 
+return endPassword.join("");
 };
-
-
-
 
 
 // Write password to the #password input
